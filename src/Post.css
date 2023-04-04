@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Inter&family=Poppins:wght@300&display=swap');
+
+.post{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    width: 20vw;
+    height: 74vh;
+    border: 1px solid #FFFF;
+    border-radius: 27px;
+    color: #FFFFFF;
+    margin-bottom: 5vh;
+    margin-top: 7vh;
+    padding-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button{
+    border-radius: 10vh;
+    background-color:#1E1E1E;
+    color:#FFFF;
+    border-radius: 50px;
+    border: 1px solid #FFFF;
+    height: 8vh;
+    width: 15vw;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    margin-left: 1.5vw;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+
+}
+
+.postImage{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    
+}
+
+#title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.postDetails{
+    align-items: left;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    height: 60vh;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    /*font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400; */
+}
